@@ -46,5 +46,25 @@
 }
 
 .para{
-  padding-bottom: 6rem;
+  padding-bottom: 1rem;
+}
+
+.my-button{
+  margin-bottom: 4rem;
+  background-color: darkred;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .my-button:hover {
+    background-color: red;
+  }
+
+
+img{
+  width:34rem;
+  height: 29rem;
 }
