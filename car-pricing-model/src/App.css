@@ -68,3 +68,10 @@ img{
   width:34rem;
   height: 29rem;
 }
+
+.link{
+  color: white;
+}
+.link:hover {
+  color: white;
+}

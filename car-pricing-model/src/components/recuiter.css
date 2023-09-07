@@ -1,0 +1,46 @@
+.all{
+    color: white;
+    position: relative;
+}
+.heading{
+    margin-bottom: 7rem;
+}
+
+span{
+    font-weight: bold;
+}
+
+.container{
+    width: 18rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10rem;
+    text-align: left;
+    font-size: large;
+}
+
+img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.my-button {
+    margin-bottom: 4rem;
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+}
+
+.my-button:hover {
+    background-color: red;
+}
+
+.link{
+    color: white;
+}

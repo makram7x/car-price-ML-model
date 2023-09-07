@@ -1,5 +1,5 @@
-/*import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Recruiter from "../components/recuiter";
+import { Link } from "react-router-dom";
+/*import Recruiter from "../components/recuiter";
 import Buisness from "../components/buisness";
 import Data from "../components/data";
 import Model from "../components/model"; */
@@ -19,26 +19,39 @@ function HomePage() {
         harmonious precision to predict your car-s worth with an astonishing 97%
         accuracy. 🎯🔮 Feed in your car details and see AI magic!
       </p>
-      <button className="my-button">Go to model</button>
+      
+      <button className="my-button">
+        <Link to="/model" className="link">Go to model</Link>
+      </button>
       <h2>I am a Data scientist💻</h2>
       <p className="para">
         🔍 To understand more about what-s going on under the hood of the
         project...the ML models and the statistics behind it.
       </p>
-      <button className="my-button">Go to Data Scientist</button>
+      <button className="my-button">
+        <Link to="/data" className="link">
+          Go to Data Scientist
+        </Link>
+      </button>
       <h2>I have a vehicle-related business 💡</h2>
       <p className="para">
         This Tab will provide you an incredible insight on how you can buy and
         sell for your business or if you want to know more about cars Data in
         Malaysia!!.
       </p>
-      <button className="my-button">Go to Business</button>
+      <button className="my-button">
+        <Link to="/buisness" className="link">
+          Go to Business
+        </Link>
+      </button>
       <h2>I am a Recruiter and would love to connect 💳</h2>
       <p className="para">
         Find my contact info in this tab if you need me to add anything more!!!
       </p>
       <button className="my-button">
-        <a href="/recuiter">Go to Recruiter</a>
+        <Link to="/recuiter" className="link">
+          Go to Recruiter
+        </Link>
       </button>
     </div>
   );
